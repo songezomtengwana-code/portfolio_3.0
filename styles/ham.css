@@ -1,0 +1,15 @@
+.bm-burger-button {position: fixed;width: 20px;height: 20px;border-radius: 50%;right: 1em;bottom: 18px;padding: 1em;outline: none;}
+.bm-burger-bars {background: var(--purple);}
+.bm-burger-bars-hover {background: var(--light);}
+.bm-cross {background: var(--purple);}
+.bm-item {display: flex;justify-content: space-between;}
+.menu-item { display:flex;flex-flow:row;outline:none;margin:20px 0; }
+.menu-item:hover { color:var(--light);transition:0.8s; }
+.row { display:flex;flex-flow:row;justify-content:space-between; }
+.bm-menu-wrap { position:fixed; height:100%; }
+.bm-menu { background:var(--white); padding:2.5em 1.5em 0; font-size:1.5em; }
+.bm-morph-shape { fill:#373a47; }
+.bm-item-list { color:var(--purple);padding:0.8em ;}
+.bm-item { display:inline-block;margin:20px 0; }
+.bm-overlay { background:var(--white2); }
+@media (min-width: 600px){ .bm-burger-button{display: none;} }
