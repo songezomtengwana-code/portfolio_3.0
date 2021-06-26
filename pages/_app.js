@@ -10,9 +10,9 @@ import "react-awesome-slider/dist/styles.css";
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <Head />
       <Nav />
-      <Component {...pageProps} />{" "}
+      <Head />
+      <Component {...pageProps} />
     </div>
   );
 }

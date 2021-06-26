@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styles from "../styles/Skills.module.css";
-import Card from "./skillcard";
-import App from "./slides/application";
+import Card from "./Skillcard";
+import App from "./slides/Application";
 import AwesomeSlider from "react-awesome-slider";
 
 const Skills = () => {

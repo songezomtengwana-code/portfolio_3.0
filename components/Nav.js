@@ -1,7 +1,5 @@
 import styles from "../styles/Nav.module.css";
-import Image from "next/image";
 import Link from "next/link";
-import React, { Component } from "react";
 import { stack as Menu } from "react-burger-menu";
 
 const Nav = () => {
@@ -22,8 +20,11 @@ const Nav = () => {
           <Link href="/" className={styles.link}>
             Portfolio
           </Link>
+          <Link href="/more" className={styles.link}>
+            More
+          </Link>
+          <button className={styles.btn}>Contact Me</button>
         </section>
-        <button className={styles.btn}>Contact Me</button>
       </nav>
       <Menu width={"100%"} right>
         <a id="home" className="menu-item" href="/">
